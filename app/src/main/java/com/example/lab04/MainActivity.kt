@@ -62,5 +62,11 @@ fun MiBotonEjemplo() {
 @Composable
 fun MiCampoTextoEjemplo() {
     var texto by remember { mutableStateOf("") }
-    TextField(value = texto, onValueChange = { texto = it }, label = { Text("Nombre") })
+    TextField(value = texto, onValueChange = { texto = it }, label = { Text("Nombre Completo") })
 }
+
+
+
+
+
+
