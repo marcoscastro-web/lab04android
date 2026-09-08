@@ -53,7 +53,7 @@ fun GreetingPreview() {
 }
 
 @Composable
-fun MiBotonEjemplo() {
+fun Mi Botón Actualizado {
     Button(onClick = { }) {
         Text("Mi Botón")
     }
@@ -64,3 +64,5 @@ fun MiCampoTextoEjemplo() {
     var texto by remember { mutableStateOf("") }
     TextField(value = texto, onValueChange = { texto = it }, label = { Text("Nombre") })
 }
+
+
